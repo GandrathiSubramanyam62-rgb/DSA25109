@@ -1,5 +1,5 @@
 #1.Bubble sort
-'''def bubble_sort(arr):
+def bubble_sort(arr):
     n = len(arr)
     for i in range(n - 1):
         for j in range(n - i - 1):
@@ -18,9 +18,9 @@ bubble_sort(arr)
 
 print("Sorted array:")
 for element in arr:
-    print(element, end=" ")'''
+    print(element, end=" ")
 #2.Insertion sort
-'''def insertion_sort(arr):
+def insertion_sort(arr):
     n = len(arr)
     for i in range(1, n):
         key = arr[i]
@@ -43,7 +43,7 @@ insertion_sort(arr)
 
 print("Sorted array:")
 for element in arr:
-    print(element, end=" ")'''
+    print(element, end=" ")
         
 
 #3.Selection sort
